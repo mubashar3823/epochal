@@ -1,0 +1,63 @@
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url(../Fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url(../Fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(/assets/Fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url(../Fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url(../Fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(/assets/Fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(/assets/Fonts/Roboto-Light.ttf);
+}
+
+.font-BebasNeueRegular {
+  font-family: BebasNeueRegular;
+}
+.font-OpenSansRegular {
+  font-family: OpenSansRegular;
+}
+.font-RobotoMedium {
+  font-family: RobotoMedium;
+}
+.font-RobotoRegular {
+  font-family: RobotoRegular;
+}
+.font-RobotoBlack {
+  font-family: RobotoBlack;
+}
+.font-RobotoLight {
+  font-family: RobotoLight;
+}
