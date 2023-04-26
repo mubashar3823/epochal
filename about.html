@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
-
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-
   <!-- style -->
   <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <title>About Us - Epochal Technologies</title>
+  <title>Epochal Technologies</title> 
 </head>
 
-<body class="bg-about">
-  <nav id="top" class="navbar navbar-expand-md primary-color fixed-top">
-    <div class="container-fluid mx-auto">
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md primary-color custom-nav fixed-top">
+    <div class="container mx-auto">
       <!-- Logo Image -->
       <img src="./assets/images/Epochal_Logo.jpg" width="225" alt="" class="d-inline-block align-middle mr-2">
       <!-- Logo Text -->
@@ -29,186 +28,164 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mx-auto mb-2 text-center mb-lg-0 font-RobotoMedium">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mb-2 mb-lg-0 font-RobotoMedium">
           <li class="nav-item">
-            <a class="nav-link text-white mx-4 mx-lg-5" aria-current="page" href="index.html">
-              Home
-            </a>
+            <a class="nav-link mx-4 mx-lg-4" aria-current="page" href="#"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4 mx-lg-4" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
             <div class="dropdown">
-              <button class="btn text-white mx-4 text-white mx-4 mx-lg-5 dropdown-toggle" type="button"
+              <a class="nav-link mx-4 mx-lg-4 dropdown-toggle" type="button"
                 id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
-              </button>
+              </a>
               <ul class="dropdown-menu primary-color" aria-labelledby="dropdownMenu2">
                 <li><button class="dropdown-item" type="button">
-                    <a class="nav-link text-white" href="index.html#I_S_A">IT Staff Augmentation</a></button></li>
-                <li><button class="dropdown-item text-white" type="button">
-                    <a class="nav-link text-white " href="index.html#T_S_L">Technology Leadership</a>
+                    <a class="nav-link" href="#I_S_A">IT Staff Augmentation</a></button></li>
+                <li><button class="dropdown-item" type="button">
+                    <a class="nav-link " href="#T_S_L">Technology Leadership</a>
                   </button></li>
-                <li><button class="dropdown-item text-white" type="button">
-                    <a class="nav-link text-white" href="index.html#D_S"> Data Science</a>
+                <li><button class="dropdown-item" type="button">
+                    <a class="nav-link" href="#D_S">Data Science</a>
 
                   </button></li>
               </ul>
             </div>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-4 mx-lg-5" href="#">Company</a>
+            <a class="nav-link mx-4 mx-lg-4" href="about.html">Company</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-4 mx-lg-5 text-nowrap" href="case-studies.html">
+            <a class="nav-link mx-4 mx-lg-4 text-nowrap" href="case-studies.html">
               Case Studies
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-4 mx-lg-5" href="contact.html">Contact</a>
+            <a class="nav-link mx-4 mx-lg-4" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Product Development -->
-  <section class="product-development-section font-OpenSansRegular overflow-hidden">
-    <div class="mx-auto container py-3">
-      <div class="text-center p-5 justify-content-center align-content-center">
-        <div class="py-4"></div>
-        <h2 class="text-black text-uppercase font-BebasNeueRegular display-4">
-          We Turn
-          <span class="primary-text">Ideas</span>
-          into Reality
-        </h2>
-        <hr class="divider mx-auto" />
-        <div class="container d-flex flex-wrap align-items-center mx-auto justify-content-center">
-          <div class="m-2 flex-column about-card secondry-color text-white">
-            <p class="font-RobotoBlack display-4">2018</p>
-            <p>Founded</p>
-          </div>
-          <div class="m-2 flex-column about-card bg-light">
-            <p class="font-RobotoBlack display-4 textprimary">20+</p>
-            <p class="text-center">Technical Specialists</p>
-          </div>
-          <div class="m-2 flex-column about-card primary-color text-white">
-            <p class="font-RobotoBlack display-4">30+</p>
-            <p>Companies</p>
-          </div>
-        </div>
+
+  <section class="bg-about-page">
+    <div class="container text-center ">
+      <h1 class="text-white">About Us</h1>
+      <div class="text-white d-flex align-items-center justify-content-center fw-semibold">
+        <span class="white-text-muted">Home </span> 
+        &nbsp; &nbsp; <span> ></span>&nbsp; 
+        About us
       </div>
-      <p class="w-75 text-justify mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-        praesentium sequi temporibus illum sed. Consectetur maiores enim earum
-        tenetur, atque, tempore aspernatur, mollitia voluptate velit deserunt
-        blanditiis temporibus perferendis reiciendis nihil doloribus non
-        laboriosam! Ipsa, saepe esse obcaecati pariatur doloribus accusamus
-        amet velit libero cum facilis ut. Ea, ab quis?
-      </p>
     </div>
   </section>
-  <!-- About Us Section -->
-  <section class="font-OpenSansRegular" style="background-color: rgb(231, 231, 231)">
-    <div class="mx-auto container py-4">
-      <div class="text-center px-5 justify-content-center align-content-center">
-        <h2 class="text-black text-uppercase font-RobotoMedium">
-          About
-          <span class="primary-text">Epochal</span>
-        </h2>
-        <div class="row py-3">
-          <div class="col-md-6 font-OpenSansRegular">
-            <p class="display-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-              omnis! Et asperiores quaerat laudantium debitis deleniti unde
-              consequatur facilis corrupti.
-            </p>
 
-            <div class="ml-0 ml-md-5">
-              <blockquote class="blockstyle">
-                <p>
-                  The Kadence Importer allows you to easily import all
-                  including images, from any of our Kadence themes demos. When
-                  you install a Kadence theme.
-                </p>
-                <footer class="blockquote-footer">
-                  Zayd Ali; <cite title="Source Title">CEO @ FISH</cite>
-                </footer>
-              </blockquote>
+  <section class="pt-75 pb-75">
+
+    <div class="container">
+      <div class="row second-section-1">
+        <div class="col-md-7 col-sm-12 second-section-2 ">
+          <h2 class="mb-3">About Epochal</h2>
+          <p>In today's digital age, businesses must embrace digital transformation to stay competitive and meet the evolving needs of customers. With the rise of e-commerce, social media, and mobile technology, customers have become more demanding and expect seamless experiences across multiple channels.  </p>
+          <p class="mt-4">To stay ahead of the competition, businesses need to focus on enhancing customer engagement and user experience. This means leveraging technology to provide personalized experiences, creating intuitive interfaces, and streamlining processes to make it easy for customers to interact with the brand.  </p>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <img src="./main-assets/home/group46.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-12 col-sm-12 mt-4 ">
+          <p class="fs-20">However, keeping up with the ever-changing market trends and customer demands can be challenging.  Epochal Technologies exists to provide innovative solutions that combine strategy and technology to drive business growth and success.  </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="pt-75 bg-light pb-75" >
+    <div class="container mx-auto">
+      <h2 class="text-center mb-3">Meet Our Executives</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="./main-assets/about-us/person-1.png" class="img-fluid input-group"/>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h3 class="my-3">Riaz Siddiqi</h3>
+                  <p class="mt-0">
+                    Chairman
+                  </p>
+                </div>
+                <img src="./main-assets/about-us/linkdin.png" class="img-fluid  alt="">
+              </div>
+
             </div>
-
-            <p>
-              Our customers come from diverse sectors like
-              <strong>Banking, Finance, Healthcare, Media & Entertainment</strong>, and more. We have helped hundreds of
-              organizations hire
-              high-quality software talent on-demand. From Fortune 500
-              companies to fast-scaling startups, countless organizations
-              trust us to scale their offshore engineering teams effortlessly.
-            </p>
           </div>
-          <div class="col-md-6 how-img">
-            <img src="./assets/images/about-1.png" class="img-fluid" alt="About Section" />
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="./main-assets/about-us/micheal.png" class="img-fluid input-group"/>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h3 class="my-3">Michael Parkan</h3>
+                  <p class="mt-0">
+                    Chief Executive Officer
+                  </p>
+                </div>
+                <img src="./main-assets/about-us/linkdin.png" class="img-fluid  alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <img src="./main-assets/about-us/john.png" class="img-fluid input-group"/>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h3 class="my-3">John Kermath</h3>
+                  <p class="mt-0">
+                    Chief Financial Officer
+                  </p>
+                </div>
+                <img src="./main-assets/about-us/linkdin.png" class="img-fluid  alt="">
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="py-4"></div>
-  <section class="font-OpenSansRegular" style="background-color: rgb(231, 231, 231)">
-    <div class="mx-auto container py-4">
-      <div class="px-5 justify-content-center align-content-center">
-        <h2 class="text-center text-black text-uppercase font-RobotoMedium" data-aos="zoom-out">
-          Our
-          <span class="primary-text">Story</span>
-        </h2>
-        <div class="row pt-3">
-          <div class="col-md-6 font-OpenSansRegular">
-            <p class="display-6" data-aos="zoom-in-down">
-              Epochal Technologies was formed whimsically to create an
-              ethically derived and anonymized database of the US population
-              with a property UX/UI and querying front end to enable users to
-              locate populations of interest for marketing, capital budgeting
-              and operations planning.<br />
-              Epochal has an MVP of the product!In 2021 Epochal realized that
-              its partnership with overseas sources of technical talent had
-              enormous potential for US companies suffering from technical
-              staff shortages, and desorous of aking the capital available to
-              them to go a long way. Michael Parkan joined Epochal with a
-              history of having created technical companies especially one
-              that had over a hundred off shore resources and he had
-              successfully catered to the technical needs of several clients
-              in the US. Michael heads up Epochal now and is building
-              technical staff provision services such as:
-            </p>
-            <ul class="justify-content-start" style="list-style-type: none">
-              <li data-aos="zoom-in-up">
-                <img src="./assets/images/forward.png" alt="story types" class="px-4 w-15 py-1" />Staff Augmentation
-              </li>
-              <li data-aos="zoom-in-up">
-                <img src="./assets/images/forward.png" alt="story types" class="px-4 w-15 py-1" />Fractional CTO's
-              </li>
-              <li data-aos="zoom-in-up">
-                <img src="./assets/images/forward.png" alt="story types" class="px-4 w-15 py-1" />Technical Project
-                Development
-              </li>
-              <li data-aos="zoom-in-up">
-                <img src="./assets/images/forward.png" alt="story types" class="px-4 w-15 py-1" />Staff Augmentation
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 how-img" data-aos="zoom-in-down">
-            <img src="./assets/images/story.png" class="img-fluid" alt="About Section" />
-          </div>
+
+
+  <section class="pt-75" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="./main-assets/about-us/logo 1.png" alt="">
         </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="./main-assets/about-us/logo 2.png" alt="">
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="./main-assets/about-us/logo 3.png" alt="">
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="./main-assets/about-us/logo 4.png" alt="">
+        </div>
+
       </div>
-
-      <p class="px-4" data-aos="zoom-in">
-        Epochal has been providing these services to startups , private equity
-        firms, family offices, and portfolio companies in the healthtech
-        ecommerce , and logistics sectors
-      </p>
-    </div>
   </section>
-  <div class="py-4"></div>
 
+
+
+  <div class="py-4"></div>
   <!-- Footer -->
   <footer class="bg-footer font-OpenSansRegular">
     <div class="d-flex flex-md-row flex-column justify-content-md-between mx-auto container text-white pt-5">
@@ -221,27 +198,17 @@
         <ul class="list-unstyled">
           <li>
             <a href="#" class="text-decoration-none">
-              <p>Staff Augmentation</p>
+              <p>IT Staff Augmentation</p>
             </a>
           </li>
           <li>
-            <a href="#" class="text-decoration-none">
+            <a href="leadership.html" class="text-decoration-none">
               <p>Technology Strategy & Leadership</p>
             </a>
           </li>
           <li>
             <a href="#" class="text-decoration-none">
-              <p>Technical Development</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-decoration-none">
-              <p>Product Designers</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-decoration-none">
-              <p>Product Architects</p>
+              <p>Data sciences</p>
             </a>
           </li>
         </ul>
@@ -252,21 +219,15 @@
           <span class="footer-first-line"></span>
           <span class="footer-links-line"></span>
         </div>
-
         <ul class="list-unstyled">
           <li>
             <a href="index.html" class="text-decoration-none">
               <p>Home</p>
             </a>
           </li>
-          <li>
-            <a href="#" class="text-decoration-none">
-              <p>Case Studies</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-decoration-none">
-              <p>Company</p>
+         <li>
+            <a href="about.html" class="text-decoration-none">
+              <p>About us</p>
             </a>
           </li>
           <li>
@@ -288,16 +249,7 @@
               <p>1980 Post Oak Blvd, Suite 1500<br />Houston, Texas 77056</p>
             </a>
           </li>
-          <li>
-            <a href="tel:+1 844 737 6242" class="text-decoration-none">
-              <p>Tel: +1 844 737 6242</p>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-decoration-none">
-              <p>Mon - Fri: 8:00 AM - 18:00 PM</p>
-            </a>
-          </li>
+
           <li>
             <a href="mailto:info@epochaltechnologies.com" class="text-decoration-none">
               <p>E-mail: info@epochaltechnologies.com</p>
@@ -306,8 +258,7 @@
         </ul>
       </div>
     </div>
-    <div class="d-flex justify-content-center gap-24 mx-auto my-5 px-3"></div>
-
+    <div class="d-flex justify-content-center gap-24 mx-auto my-5 px-3"> </div>
     <div class="p-3 primary-color footer-shadow copyright">
       <div class="container mx-auto">
         <div class="bottom-to-top">
@@ -317,13 +268,11 @@
             </a>
           </div>
         </div>
-        <p class="justify-content-center d-flex mx-auto text-white">
-          Copyright © 2022 Epochal Technologies - All Rights Reserved.
-        </p>
+        <p class="justify-content-center d-flex mx-auto text-white"> Copyright © 2023 Epochal Technologies - All Rights
+          Reserved. </p>
       </div>
     </div>
   </footer>
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -336,8 +285,16 @@
     crossorigin="anonymous"></script>
   <!-- Aos -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Include owl carousal a js plugin -->
+  <script src="./main-assets/owl-carousel/owl.carousel.js"></script>
   <script>
     AOS.init();
+    $(".service").click(function () {
+
+      var elmntToView = document.getElementById("second");
+      elmntToView.scrollIntoView();
+    });
   </script>
 </body>
 

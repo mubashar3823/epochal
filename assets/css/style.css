@@ -916,3 +916,20 @@ blockquote.blockstyle {
 .fs-25{
   font-size: 25px;
 }
+
+/* About Us Page Stying */
+
+.bg-about-page{
+  background:url('../../main-assets/about-us/banner.png')content-box;
+  min-height: 500px;
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-text-muted{
+  color: #999999 !important;
+}
+.fs-20{
+  font-size: 20px;
+}
