@@ -201,6 +201,10 @@ button.about-us-home-page-btn {
   border: none;
   margin-top: 15px;
 }
+.card:hover button.about-us-home-page-btn {
+  background-color: #fff;
+  color: #5A83BB;
+}
 .bg-banner-2{
   background: url('../../main-assets/home/mini-banner.png');
   padding: 50px 0;
@@ -918,10 +922,9 @@ blockquote.blockstyle {
 }
 
 /* About Us Page Stying */
-
 .bg-about-page{
   background:url('../../main-assets/about-us/banner.png')content-box;
-  min-height: 500px;
+  min-height: 570px;
   padding-top: 96px;
   display: flex;
   align-items: center;
@@ -932,4 +935,34 @@ blockquote.blockstyle {
 }
 .fs-20{
   font-size: 20px;
+}
+
+/* Services Page */
+.bg-services-page{
+  background:url('../../main-assets/services/banner.png')content-box;
+  min-height: 570px;
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Case Study Main Page */
+.bg-csmp-page{
+  background:url('../../main-assets/case-study/banner.png')content-box;
+  min-height: 570px;
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Case Study Private Equity Detail Page */
+.bg-private-equity-page{
+  background:url('../../main-assets/case-study/banner.png')content-box;
+  min-height: 570px;
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
