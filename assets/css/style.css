@@ -959,10 +959,53 @@ blockquote.blockstyle {
 
 /* Case Study Private Equity Detail Page */
 .bg-private-equity-page{
-  background:url('../../main-assets/case-study/banner.png')content-box;
+  background:url('../../main-assets/private-equity/banner.png')content-box;
   min-height: 570px;
   padding-top: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.text-blue{
+  color:rgb(90, 131, 187);
+}
+
+/* Case Study Private Equity Detail Page */
+.bg-contact-page{
+  background:url('../../main-assets/contact/banner.png')content-box;
+  min-height: 570px;
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-contact-form{
+  background: url('../../main-assets/contact/form-banner.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  padding: 75px 75px 35px;
+  background-color: transparent;
+}
+.form-control{
+  border-radius: 0;
+  min-height: 53px;
+  color: #000 !important;
+}
+.card-contact-form{
+  border: unset;
+  border-radius: 0;
+  box-shadow: 0 0 10px 0px #cecece;
+  padding: 0px;
+  margin: 1rem 0;
+}
+.btn-contact-form, .btn-contact-form:hover{
+  background: #fff;
+  color: rgb(90, 131, 187) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 166px;
+  border-radius: 0;
+  padding: 10px 15px;
 }
